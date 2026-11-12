@@ -1,0 +1,15 @@
+{
+  "model_name": "Soft Voting Ensemble",
+  "base_estimators": [
+    "cart",
+    "rf",
+    "gb",
+    "xgb"
+  ],
+  "voting": "soft",
+  "fit_timestamp": "2026-11-13T00:35:00",
+  "python_version": "3.13.15",
+  "sklearn_version": "1.9.0",
+  "numpy_version": "2.5.2",
+  "pandas_version": "3.1.0"
+}

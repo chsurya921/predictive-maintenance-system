@@ -1,0 +1,36 @@
+{
+  "model_name": "CART (DecisionTreeClassifier)",
+  "best_params": {
+    "ccp_alpha": 0.0,
+    "class_weight": "balanced",
+    "criterion": "gini",
+    "max_depth": null,
+    "max_features": null,
+    "max_leaf_nodes": null,
+    "min_impurity_decrease": 0.0,
+    "min_samples_leaf": 1,
+    "min_samples_split": 2,
+    "min_weight_fraction_leaf": 0.0,
+    "monotonic_cst": null,
+    "random_state": 42,
+    "splitter": "best"
+  },
+  "pr_auc_cv_mean": 0.0,
+  "features_used": [
+    "type",
+    "air_temperature_k",
+    "process_temperature_k",
+    "rotational_speed_rpm",
+    "torque_nm",
+    "tool_wear_min",
+    "temp_diff_k",
+    "mechanical_power_w",
+    "torque_wear_proxy"
+  ],
+  "encoding": "ordinal",
+  "fit_timestamp": "2026-11-13T00:34:57",
+  "python_version": "3.13.15",
+  "sklearn_version": "1.9.0",
+  "numpy_version": "2.5.2",
+  "pandas_version": "3.1.0"
+}

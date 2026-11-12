@@ -1,0 +1,22 @@
+{
+  "model_name": "Bayesian Model Averaging (BMA)",
+  "num_models_evaluated": 255,
+  "effective_num_models": 2.418293860022132,
+  "posterior_entropy": 0.8830622750077974,
+  "posterior_inclusion_probabilities": {
+    "type": 0.7916258968989555,
+    "air_temperature_k": 0.05399738154648078,
+    "process_temperature_k": 0.05396715501586422,
+    "rotational_speed_rpm": 1.0,
+    "torque_nm": 1.0,
+    "tool_wear_min": 1.0,
+    "temp_diff_k": 0.973178888424196,
+    "mechanical_power_w": 1.0
+  },
+  "top_model_weight": 0.7283436077760974,
+  "fit_timestamp": "2026-11-13T00:25:09",
+  "python_version": "3.13.15",
+  "sklearn_version": "1.9.0",
+  "numpy_version": "2.5.2",
+  "pandas_version": "3.1.0"
+}

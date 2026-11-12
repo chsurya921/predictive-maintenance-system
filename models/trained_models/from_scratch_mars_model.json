@@ -1,0 +1,24 @@
+{
+  "model_name": "From-Scratch MARS (Multivariate Adaptive Regression Splines)",
+  "num_bases": 12,
+  "basis_descriptions": [
+    "B_0: 1.0 (Intercept)",
+    "B_1: max(0, torque_wear_proxy - 9458.90)",
+    "B_2: max(0, 9458.90 - torque_wear_proxy)",
+    "B_3: max(0, mechanical_power_w - 8087.26)",
+    "B_4: max(0, 8087.26 - mechanical_power_w)",
+    "B_5: max(0, 9458.90 - torque_wear_proxy) * max(0, torque_nm - 18.36)",
+    "B_6: max(0, 9458.90 - torque_wear_proxy) * max(0, 18.36 - torque_nm)",
+    "B_7: max(0, 8.99 - temp_diff_k)",
+    "B_8: max(0, 8.99 - temp_diff_k) * max(0, rotational_speed_rpm - 1449.30)",
+    "B_9: max(0, 8.99 - temp_diff_k) * max(0, 1449.30 - rotational_speed_rpm)",
+    "B_10: max(0, torque_wear_proxy - 9458.90) * max(0, 8.70 - temp_diff_k)",
+    "B_11: max(0, torque_wear_proxy - 9458.90) * max(0, 1.00 - type)"
+  ],
+  "max_degree": 2,
+  "fit_timestamp": "2026-11-13T00:25:04",
+  "python_version": "3.13.15",
+  "sklearn_version": "1.9.0",
+  "numpy_version": "2.5.2",
+  "pandas_version": "3.1.0"
+}

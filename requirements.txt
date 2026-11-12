@@ -1,0 +1,17 @@
+# Pinned exact tested versions for Python 3.13 / ARM64 macOS
+# Verified compatibility: pyGAM, SHAP, XGBoost, Scipy, NumPy 2.x, Scikit-learn 1.9
+pandas==3.1.0
+numpy==2.5.2
+scikit-learn==1.9.0
+scipy==1.16.3
+xgboost==2.1.4
+shap==0.54.1
+pygam==0.12.0
+statsmodels==0.15.0
+matplotlib==3.11.1
+seaborn==0.13.2
+plotly==7.1.0
+streamlit==1.66.1
+joblib==1.6.0
+pytest==9.1.1
+nbformat==5.11.1
